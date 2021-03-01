@@ -1,3 +1,5 @@
 describe('Kata', () => {
-  it('should ', () => {});
+  it('should start at origin', () => {
+    
+  });
 });

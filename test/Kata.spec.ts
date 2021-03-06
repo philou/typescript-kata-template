@@ -1,4 +1,4 @@
-import { Rover } from "../src/Kata";
+import { Rover } from "../src/Rover";
 
 describe('Kata', () => {
   it('should start at origin', () => {

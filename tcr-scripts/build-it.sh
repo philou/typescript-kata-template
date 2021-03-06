@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-yarn jest:dry-run
+yarn run jest:dry-run

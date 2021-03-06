@@ -1,1 +1,1 @@
-export class Kata {}
+export class Rover {}

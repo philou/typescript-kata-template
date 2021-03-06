@@ -1,7 +1,9 @@
 #!/usr/bin/env sh
 
+# brew install fswatch
+
 while true
 do
-    inotify -r -e modify ./src ./test
+    fswatch -1 -r ./src ./test
     ./tcr.sh
 done

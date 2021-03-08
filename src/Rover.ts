@@ -7,6 +7,4 @@ export class Rover {
     public readonly x = 0;
     public y = 0;
     public readonly direction = Direction.North;
-
-
 }

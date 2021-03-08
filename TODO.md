@@ -1,0 +1,2 @@
+- Fix prettier in VSCode
+- Remove jest extensions that are useless with tcr

@@ -15,3 +15,8 @@ To use it follow these steps.
 ### Step 3. Run the tests
 
 `yarn test`
+
+## Experiment TCR
+
+Install fswatch with `brew install fswatch`.
+Start the TCR loop with `./tcr-loop.sh`

@@ -13,7 +13,8 @@
     "typescript": "^4.1.2"
   },
   "scripts": {
+    "jest:dry-run": "jest --testNamePattern=DO-NOT-RUN-ANYTHING --silent",
     "test": "jest --watch",
-    "jest:tcr": "jest --watch --config jest.config.tcr.js --onlyChanged"
+    "jest:tcr": "jest --config jest.config.tcr.js --onlyChanged"
   }
 }

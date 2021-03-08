@@ -14,4 +14,14 @@ describe('Rover', () => {
 
     expect(rover.direction).toBe(Direction.North);
   });
+
+  it('can move Northward', () => {
+    let rover = new Rover();
+
+    rover.forward();
+
+    expect(rover.x).toBe(0);
+    expect(rover.y).toBe(1);
+  });
 });
+
